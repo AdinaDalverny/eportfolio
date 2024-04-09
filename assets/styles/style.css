@@ -1,9 +1,15 @@
 @import url(nav.css);
-@import url(presentation.css);
+@import url(passions.css);
 @import url(container.css);
-
+@import url(about.css);
+@import url(contact.css);
 header {
     width: 100vw;
     position: relative;
 }
+
+/* * {
+    border: 1px solid red;
+} */
+
 

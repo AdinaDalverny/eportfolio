@@ -1,25 +1,23 @@
 .container {
-    background-color: blue;
+    background-color:orchid;
     height: 80vh;
     display: flex;
-    border-radius: 16px;
-
-        
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;  
+    border: 2px solid green;
+    overflow: hidden; 
+    gap: 40px;
 }
       
 
-.container >.grid > img {
-    background-color: blueviolet;
-    border-radius: 32px;
-    min-width: 100%;
-    height: auto;
-    object-fit: contain;
-  
+.container_img {
+  object-fit: cover;
+  height: 100%;
 }
 
-.container>.grid>div>h1 {
-    display: flex;
-    align-items: center;
+.container>.grid> h1 {
+    text-align: center;
     font-style: oblique;
     
 
