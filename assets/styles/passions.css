@@ -1,3 +1,20 @@
 .passions {
-    background-color:red;
+    width: 100%;
+    height: 90vh;
+    background-image:url(https://diapogram.com/upload/2018/04/12/20180412142602-db438182.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.passions>h2 {
+    text-align: center;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+
+  

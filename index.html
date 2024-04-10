@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
     <link rel="stylesheet" href="assets/styles/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
     <title>Ma presentation</title>
@@ -16,87 +15,109 @@
             <li><img src="assets/images/Logo_Adina.png"></li>
             <li><strong>Adina DALVERNY</strong></li>
         </ul>
-        <ul>
-            <li> <button data-tooltip="A Propos">A Propos</button></li>
-            <li> <button data-tooltip="Passions">Passions</button></li>
-            <li> <button data-tooltip="Projet">Projet</button></li>
-            <li> <button data-tooltip="Contact">Contact</button></li>
+        <ul class="secondary">
+            <li class="secondary"><a href="#propos"><button data-tooltip="A Propos">A Propos</button></a></li>
+            <li class="contrast"><a href="#passions"><button data-tooltip="Passions">Passions</button></a></li>
+            <li class="outline"><a href="#projet"><<button data-tooltip="Projet">Projet</button></a></li>
+            <li class="outline secondary"><a href="#contact"><button data-tooltip="Contact">Contact</button></a></li>
         </ul>
       </nav>
     </header>
     <main >
-        <section class="container">
-                <h1>BIENVENUE SUR<br> MON PORTFOLIO PASSIONS</h1>
-                <img class="container_img" src="assets/images/photo_profil.jpeg" alt="photo profil">
-        </section>
-        <section class="about">
-            <div class="career">
-                <details>
-                    <summary role="button">Parcours scolaire</summary>
-                    <p>
-                        <ul>
-                            <li>2004-Niveau bac+3 Management entreprise</li>
-                            <li>2024-La Toile EmLyon</li>
-                        </ul>
-                    </p>
-                  </details>
-            </div>
-            <div class="experience">
-                <details>
-                    <summary role="button">Mes expériences professionenlles</summary>
-                    <p>
-                        <ul>
-                            <li>2008-2010 Chef cuisine restaurant</li>
-                            <li>2010-2018 <Section></Section>erveuse</li>
-                            <li>2018-2022 Chef de salle</li>
-                            <li>2022-2023 Operateur colage</li>
-                        </ul>
-                    </p>
-                </details>    
-            </div>
-        </section>
-        <section class="passions">
-            <h2>Mes passions et centres d'intérêt</h2>
-            <div class="trevel">
+      <section class="container">
+        <h1>BIENVENUE SUR MON PORTFOLIO PASSIONS</h1>
+        <img class="container_img" src="assets/images/photo_profil.jpeg" alt="photo profil">
+      </section>
+      <section class="about" id="propos">
+        <div class="career">
+          <details>
+            <summary role="button">Parcours scolaire</summary>
               <p>
-              <strong>< J'adore voyager ! ></strong><br>
-              
-              J’aime beaucoup voyager que ce soit à l’étranger comme en France.<br>
-              J’ai eu la chance de visiter de nombreux pays comme la Thailande, l'Indonnesie, l’Allemagne, l’Ilalie, l’Espagne, le Portugual, le Maroc, la Bulgarie… <br>Cependant, j’ai eu un véritable coup de coeur pour le continent asiatique et en special pour Thailande où je me rend depuis 9 ans.<br>
-              Mon coup de coeur européen se porte sur l'l’Espagne (ou je me rend chaque annee avec mon mari) et plus particulièrement sur la ville de Barcelone ou il fait bon vivre tout le long de l'année et qui nous offre de lieux culturels, historiques et gastronomiques inoubliable.<br> 
-              Cependant, j’aime également beaucoup voyager en France même si ce n’est que le temps d’un week-end. J’aime tout particulièrement l'Ardèche (la region d'enfance de mon mari), Marseille avec ses calanque, Lyon capitale de la gastronomie.
-              </P>
-              <img src="assets/images/map.jpg" alt="Photo avec la carte du monde">
-            </div>
-            <div class="kitchen">
-              <p>
-              <strong>< Je suis passionnée par la cuisine ! ></Je></strong><br>
+              <ul>
+                <li>2004-Niveau bac+3 Management entreprise</li>
+                <li>2024-La Toile EmLyon</li>
+              </ul>
+              </p>
+          </details>
+        </div>
+        <div class="experience">
+          <details>
+            <summary role="button">Mes expériences professionenlles</summary>
+            <p>
+            <ul>
+              <li>2008-2010 Chef cuisine restaurant</li>
+              <li>2010-2018 Serveuse</li>
+              <li>2018-2022 Chef de salle</li>
+              <li>2022-2023 Operateur colage</li>
+            </ul>
+            </p>
+          </details>    
+        </div>
+      </section>
+      <section class="passions" id="passions">
+        <h2>MES PASSIONS</h2>
+      </section>
+      <section class="passion_1">
+        <div class="travel">
+          <div class="left">
+            <h2><strong>< J'adore voyager ! ></strong></h2><br>
+            <p>J’aime beaucoup voyager que ce soit à l’étranger comme en France.<br>
+            J’ai eu la chance de visiter de nombreux pays comme la Thailande, l'Indonnesie, l’Allemagne, l’Ilalie, l’Espagne, le Portugual, le Maroc, la Bulgarie… <br>Cependant, j’ai eu un véritable coup de coeur pour le continent asiatique et en special pour Thailande où je me rend depuis 9 ans.<br>
+            Mon coup de coeur européen se porte sur l'l’Espagne (ou je me rend chaque annee avec mon mari) et plus particulièrement sur la ville de Barcelone ou il fait bon vivre tout le long de l'année et qui nous offre de lieux culturels, historiques et gastronomiques inoubliable.<br> 
+            Cependant, j’aime également beaucoup voyager en France même si ce n’est que le temps d’un week-end. J’aime tout particulièrement l'Ardèche (la region d'enfance de mon mari), Marseille avec ses calanque, Lyon capitale de la gastronomie.
+            </p>
+          </div>
+          <div class="right">
+            <img src="assets/images/map.jpg" alt="Photo avec la carte du monde">
+          </div>
+        </div>
+      </section>
+      <section class="kitchen">
+        <div class="left">
+            <h2><strong>< Je suis passionnée par la cuisine ! ></strong></h2><br>
+            <p>
           
-              Depuis mon enfance, je suis toujours passionnée par la cuisine.<br> 
-              Je me rapelle toujours les plat de mon enfance prepare par ma grande-mère. Avant les repas j'ai traine toujours dans ses pattes.<br>
-              Les année ont passé je fait des etudes dans le management et apràs je suis partie à l'etranger.<br>
-              En 2005 je suis arrive en France (pays de la haute gastronomie) et après quelque année j'ai eu l'occasion de travaille dans un restaurant ou j'ai appris de nouvelles choses et techniques de base.<br>
-              Ma soif d'apprendre ne c'est arrete pas la. J'ai pris de cours de cuisine dans des grandes maisons de renome ou j'ai appris des nouvelles techniques.<br>
-              Chaque fois après avoir fait un cours, je reproduit les recette a la maison et je fait profiter ma famille et les amis.<br>
-              La cuisine fait partie de mon ADN... 
-              </p>
-              <img src="assets/images/Capture.PNG" alt="Filet de boeuf aux petites legumes">
-            </div>
-            <div class="poker">
-              <p><strong>< Je joue au poker ></strong><br>
-
-              Depuis plus de 10 ans je joue au poker.J’aime beaucoup ce sport car il me permet de me détendre après mes longue journées de travaille.<br>
-              De plus, ce sport demande aussi de la stratégie, de la technique et une bonne maîtrise de ses émotions ce qui m’intéresse beaucoup.<br>
-              Je regarde des tutorielles, je fait des petits turnois sur internet et en life pour prendre ma dose d'émotions et d'adrénaline.<br>
-              Le poker c'est super!  MAIS  Avec moderation!
-              </p>
-              <img src="assets/images/poker.jpg" alt="tapi de poker avec des jetons">
-            </div>
-        </section>
-        <section class="contact">
-
-        
-        </section>
+            Depuis mon enfance, je suis toujours passionnée par la cuisine.<br> 
+            Je me rapelle toujours les plat de mon enfance prepare par ma grande-mère. Avant les repas j'ai traine toujours dans ses pattes.<br>
+            Les année ont passé je fait des etudes dans le management et apràs je suis partie à l'etranger.<br>
+            En 2005 je suis arrive en France (pays de la haute gastronomie) et après quelque année j'ai eu l'occasion de travaille dans un restaurant ou j'ai appris de nouvelles choses et techniques de base.<br>
+            Ma soif d'apprendre ne c'est arrete pas la. J'ai pris de cours de cuisine dans des grandes maisons de renome ou j'ai appris des nouvelles techniques.<br>
+            Chaque fois après avoir fait un cours, je reproduit les recette a la maison et je fait profiter ma famille et les amis.<br>
+            La cuisine fait partie de mon ADN... 
+            </p>
+        </div>
+        <div class="right">
+          <img src="assets/images/Capture.PNG" alt="Filet de boeuf aux petites legumes">
+        </div>
+      </section>
+      <section class="poker">
+        <div class="left">
+          <h2><strong>< Je joue au poker ></strong></h2><br>
+          <p>
+          Depuis plus de 10 ans je joue au poker.J’aime beaucoup ce sport car il me permet de me détendre après mes longue journées de travaille.<br>
+          De plus, ce sport demande aussi de la stratégie, de la technique et une bonne maîtrise de ses émotions ce qui m’intéresse beaucoup.<br>
+          Je regarde des tutorielles, je fait des petits turnois sur internet et en life pour prendre ma dose d'émotions et d'adrénaline.<br>
+          Le poker c'est super!  MAIS  Avec moderation!
+          </p>
+        </div>
+        <div class="right">
+          <img src="assets/images/poker.jpg" alt="tapi de poker avec des jetons">
+        </div>
+      </section>
     </main>
+    <footer>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+          <label class="yellow" for="name">Nom :</label>
+          <input type="text" id="name" name="name" required><br><br>
+          <label class="yellow" for="email">Email :</label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label class="yellow" for="message">Message :</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br><br>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,18 @@
+.kitchen {
+    display: flex;
+    background-color: #e7fafa;
+    background: linear-gradient(to right, aquamarine, #e7fafa);
+    flex-direction: row-reverse;
+    border-radius: 16px;
+}
+
+.kitchen>.left>h2 {
+    text-align: center;
+    border-radius: 16px;
+}
+
+.kitchen>.right>img {
+    width: 100wv;
+    height: 90vh;
+    border-radius: 16px;
+}

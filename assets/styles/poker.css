@@ -1,0 +1,17 @@
+.poker {
+
+    display: flex;
+}
+.poker>.left>h2 {
+    text-align: center;
+
+}
+.poker>.left {
+border-radius: 16px;
+background-color: #e7fafa;
+background: linear-gradient(to right, #e7fafa, aquamarine);
+
+}
+.poker>.right>img {
+    border-radius: 16px;
+}

@@ -3,6 +3,9 @@
 @import url(container.css);
 @import url(about.css);
 @import url(contact.css);
+@import url(passion_1.css);
+@import url(kitchen.css);
+@import url(poker.css);
 header {
     width: 100vw;
     position: relative;
@@ -12,4 +15,8 @@ header {
     border: 1px solid red;
 } */
 
-
+.secondary {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;;
+}
