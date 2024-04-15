@@ -25,7 +25,7 @@
     </header>
     <main >
       <section class="container">
-        <h1>BIENVENUE SUR MON PORTFOLIO PASSIONS</h1>
+        <h1>BIENVENUE SUR <br> MON PORTFOLIO PASSIONS</h1>
         <img class="container_img" src="assets/images/photo_profil.jpeg" alt="photo profil">
       </section>
       <section class="about" id="propos">
@@ -62,8 +62,8 @@
           <div class="left">
             <h2><strong>< J'adore voyager ! ></strong></h2><br>
             <p>J’aime beaucoup voyager que ce soit à l’étranger comme en France.<br>
-            J’ai eu la chance de visiter de nombreux pays comme la Thailande, l'Indonnesie, l’Allemagne, l’Ilalie, l’Espagne, le Portugual, le Maroc, la Bulgarie… <br>Cependant, j’ai eu un véritable coup de coeur pour le continent asiatique et en special pour Thailande où je me rend depuis 9 ans.<br>
-            Mon coup de coeur européen se porte sur l'l’Espagne (ou je me rend chaque annee avec mon mari) et plus particulièrement sur la ville de Barcelone ou il fait bon vivre tout le long de l'année et qui nous offre de lieux culturels, historiques et gastronomiques inoubliable.<br> 
+            J’ai eu la chance de visiter de nombreux pays comme la Thailande, l'Indonnesie, l’Allemagne, l’Ilalie, l’Espagne, le Portugual, le Maroc, la Bulgarie… <br>Cependant, j’ai eu un véritable coup de coeur pour le continent asiatique et tout particulièrement pour Thailande où je me rend depuis 9 ans avec mon mari.<br>
+            Mon coup de coeur européen se porte sur l’Espagne (ou je me rend chaque annee avec mon mari) et plus particulièrement sur la ville de Barcelone ou il fait bon vivre tout le long de l'année et qui nous offre de lieux culturels, historiques et gastronomiques inoubliable.<br> 
             Cependant, j’aime également beaucoup voyager en France même si ce n’est que le temps d’un week-end. J’aime tout particulièrement l'Ardèche (la region d'enfance de mon mari), Marseille avec ses calanque, Lyon capitale de la gastronomie.
             </p>
           </div>
@@ -78,10 +78,10 @@
             <p>
           
             Depuis mon enfance, je suis toujours passionnée par la cuisine.<br> 
-            Je me rapelle toujours les plat de mon enfance prepare par ma grande-mère. Avant les repas j'ai traine toujours dans ses pattes.<br>
-            Les année ont passé je fait des etudes dans le management et apràs je suis partie à l'etranger.<br>
+            Je me rapelle toujours les plats de mon enfance prepare par ma grande-mère. Avant les repas j'ai traine toujours dans la cuisine dans ses tablies.<br>
+            Les année ont passé, je fait des etudes dans le management et après je suis partie à l'etranger.<br>
             En 2005 je suis arrive en France (pays de la haute gastronomie) et après quelque année j'ai eu l'occasion de travaille dans un restaurant ou j'ai appris de nouvelles choses et techniques de base.<br>
-            Ma soif d'apprendre ne c'est arrete pas la. J'ai pris de cours de cuisine dans des grandes maisons de renome ou j'ai appris des nouvelles techniques.<br>
+            Ma soif d'apprendre ne c'est arrete pas la. J'ai pris des cours de cuisine dans des grandes maisons de renom ou j'ai appris des nouvelles techniques.<br>
             Chaque fois après avoir fait un cours, je reproduit les recette a la maison et je fait profiter ma famille et les amis.<br>
             La cuisine fait partie de mon ADN... 
             </p>
@@ -94,9 +94,9 @@
         <div class="left">
           <h2><strong>< Je joue au poker ></strong></h2><br>
           <p>
-          Depuis plus de 10 ans je joue au poker.J’aime beaucoup ce sport car il me permet de me détendre après mes longue journées de travaille.<br>
-          De plus, ce sport demande aussi de la stratégie, de la technique et une bonne maîtrise de ses émotions ce qui m’intéresse beaucoup.<br>
-          Je regarde des tutorielles, je fait des petits turnois sur internet et en life pour prendre ma dose d'émotions et d'adrénaline.<br>
+          Depuis plus de 10 ans je joue au poker.J’aime beaucoup ce jeu car il me permet de me détendre après mes longue journées de travaille.<br>
+          Il demande aussi de la stratégie, de la technique et une bonne maîtrise de ses émotions ce qui m’intéresse beaucoup.<br>
+          Je regarde des tutorielles, je fait des petits tournois sur internet et en life pour prendre ma dose d'émotions et d'adrénaline.<br>
           Le poker c'est super!  MAIS  Avec moderation!
           </p>
         </div>
@@ -104,19 +104,38 @@
           <img src="assets/images/poker.jpg" alt="tapi de poker avec des jetons">
         </div>
       </section>
+      <section class="projet" id="projet">
+        <div class="1">
+          <h2>Mon Projet</h2>
+          <p>Le rêve de mon mari et moi, depuis plusieurs années, c'est d'aquérir une petite maison en Asie, pour y passer les mois d'hivers au soleil.<br>
+          J'espère qu'avec l'aide de Dieu, dans les deux ans à venir notre projet pourra prendre vie.
+          </p>
+        </div>
+        <div class="2">
+          <img src="assets/images/maison-en-thailande.jpg">
+        </div>
+      </section>
     </main>
     <footer>
       <section id="contact">
         <h2>Contact</h2>
-        <form action="#" method="POST">
-          <label class="yellow" for="name">Nom :</label>
-          <input type="text" id="name" name="name" required><br><br>
-          <label class="yellow" for="email">Email :</label>
-          <input type="email" id="email" name="email" required><br><br>
-          <label class="yellow" for="message">Message :</label><br>
-          <textarea id="message" name="message" rows="5" required></textarea><br><br>
-          <button type="submit">Envoyer</button>
-        </form>
+        <div class="forms">
+          <form action>
+            <div class="flex">
+              <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" placeholder="DALVERNY">
+              </div>
+              <div>
+                <label for="firstname">Prenom :</label>
+                <input type="text" id="firstname" placeholder="Adina">
+              </div> 
+            </div> 
+            <label for="message">Votre message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Mon message..."></textarea>
+            <input type="submit" value="Envoyer" id="submit">
+          </form>
+        </div>
       </section>
     </footer>
   </body>
